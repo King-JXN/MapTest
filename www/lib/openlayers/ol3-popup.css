@@ -1,0 +1,258 @@
+.ol-popup-unselected {
+    display: block;
+    position: absolute;      
+    background-color: #97dfe0;
+    -webkit-filter: drop-shadow(0 1px 4px rgba(0,0,0,0.2));
+    filter: drop-shadow(0 1px 4px rgba(0,0,0,0.2));
+    padding: 0px 0px 0px 0px;
+    border-radius:5px;
+    border: 2px solid #97dfe0;
+    bottom: 7px;
+    left: -23.5px;
+}
+
+.ol-popup-unselected:after, .ol-popup-unselected:before {
+    top: 100%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;   
+    position: absolute;
+    pointer-events: none;
+}
+
+.ol-popup-unselected:after {
+    border-top-color: #97dfe0;
+    border-width: 5px;
+    left: 21.5px;
+    margin-left: -5px;
+}
+
+.ol-popup-unselected:before {
+    border-top-color: #97dfe0;
+    border-width: 6px;
+    left: 21.5px;
+    margin-left: -6px;
+}
+
+.ol-popup-content {
+    width: 45px;
+    height: 40px;
+    overflow-x: auto;
+}
+
+.ol-popup-selected {
+    display: block;
+    position: absolute;      
+    background-color: #f4d505;
+    -webkit-filter: drop-shadow(0 1px 4px rgba(0,0,0,0.2));
+    filter: drop-shadow(0 1px 4px rgba(0,0,0,0.2));
+    padding: 0px 0px 0px 0px;
+    border-radius:5px;
+    border: 2px solid #f4d505;
+    bottom: 7px;
+    left: -23.5px;
+}
+
+.ol-popup-selected:after, .ol-popup-selected:before {
+    top: 100%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;   
+    position: absolute;
+    pointer-events: none;
+}
+
+.ol-popup-selected:after {
+    border-top-color: #f4d505;
+    border-width: 5px;
+    left: 21.5px;
+    margin-left: -5px;
+}
+
+.ol-popup-selected:before {
+    border-top-color: #f4d505;
+    border-width: 6px;
+    left: 21.5px;
+    margin-left: -6px;
+}
+
+.gray { 
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    
+    filter: grayscale(100%);
+	
+    filter: gray;
+}
+
+
+.ol-popup-mapsay {
+    display: block;
+    position: absolute;      
+    background-color: white;
+    -webkit-filter: drop-shadow(0 1px 4px rgba(0,0,0,0.2));
+    filter: drop-shadow(0 1px 4px rgba(0,0,0,0.2));
+    padding: 0px 0px 0px 0px;
+    border-radius:5px;
+    border: 2px solid white;
+    bottom: 10px;  
+    left: -132px;
+}
+
+.ol-popup-mapsay:after, .ol-popup-mapsay:before {
+    top: 100%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;   
+    position: absolute;
+    pointer-events: none;
+}
+
+.ol-popup-mapsay:after {
+    border-top-color: white;
+    border-width: 10px;
+    left: 127px;
+    margin-left: -10px;
+}
+
+.ol-popup-mapsay:before {
+    border-top-color: white;
+    border-width: 11px;
+    left: 127px;
+    margin-left: -11px;
+}
+
+.ol-popup-mapsay-content {      
+    width: 250px;
+    height: 200px;
+    overflow-x: auto;
+}
+
+.ol-popup-mapsay-closer {
+    position: absolute; 
+    right: 0px;    
+    color: white;
+    font-size: 30px;  
+    bottom: 2px;
+}
+
+.ol-popup-mapsay-imgfun{
+    font-size: 30px; 
+    padding-right: 10px; 
+}
+
+.ol-popup-mapsay-img{
+    position: absolute;
+    margin: auto;
+    overflow: auto;
+    top: 30px;
+    width: 250px;
+    height: 100px;    
+}
+
+.ol-popup-mapsay-imgView{  
+    top: 30px; 
+    margin: auto;
+    overflow: auto;   
+    width: 250px;
+    height: 156px;    
+}
+
+.ol-popup-mapsay-title{
+    position: absolute;
+    top: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    height: 30px;   
+}
+
+.ol-popup-mapsay-imgFriend{  
+    position: absolute;  
+    top: 2px;
+    width: 25px;
+    height: 25px;    
+}
+
+.ol-popup-mapsay-imgName{  
+    position: absolute;  
+    top: 5px;
+    left: 40px;    
+}
+
+.ol-popup-mapsay-Phone-Select-Image{  
+    position: absolute;
+    width: 100%;   
+    height: 36px; 
+    bottom: 46px;    
+}
+
+.ol-popup-mapsay-send{  
+    position: absolute;
+    width: 100%;
+    height: 46px; 
+    bottom: 0px;     
+}
+
+.ol-popup-mapsay-textarea{ 
+    position: absolute;
+    width:100%;   
+    line-height:1.5;   
+    border-radius:0px;
+    height:38px;  
+    overflow-x: hidden;
+    overflow-y: scroll;   
+    resize: none;
+}
+
+.ol-popup-finish-mapsay {
+    display: block;
+    position: absolute;      
+    background-color: white;
+    -webkit-filter: drop-shadow(0 1px 4px rgba(0,0,0,0.2));
+    filter: drop-shadow(0 1px 4px rgba(0,0,0,0.2));
+    padding: 0px 0px 0px 0px;
+    border-radius:0px;
+    border: 2px solid white;
+    bottom: 8px;  
+    left: -30px;
+}
+
+.ol-popup-finish-mapsay:after, .ol-popup-finish-mapsay:before {
+    top: 100%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;   
+    position: absolute;
+    pointer-events: none;
+}
+
+.ol-popup-finish-mapsay:after {
+    border-top-color: white;
+    border-width: 8px;
+    left: 30px;
+    margin-left: -8px;
+}
+
+.ol-popup-finish-mapsay:before {
+    border-top-color: white;
+    border-width: 8px;
+    left: 30px;
+    margin-left: -8px;
+}
+
+.ol-popup-finish-mapsay-content {      
+    width: 60px;
+    height: 32px;
+    overflow-x: auto;
+}
+.ol-popup-finish-mapsay-button{
+    width: 100% !important;    
+    font-size: 14px;
+}
